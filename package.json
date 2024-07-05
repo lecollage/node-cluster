@@ -1,0 +1,17 @@
+{
+  "name": "node-cluster",
+  "version": "1.0.0",
+  "description": "> A simple example of how to running a [Fastify](https://www.fastify.io/) server in [multi-threaded](https://nodejs.org/api/cluster.html#cluster_cluster) mode.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:prod": "ts-node dist/index.js",
+    "start:dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
